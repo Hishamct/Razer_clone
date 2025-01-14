@@ -1,0 +1,923 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    border-bottom:1px solid #44D62C;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+
+}
+
+.logo{
+    width: 250px;
+    height: 60px;
+}
+.logo img{
+    width: 35px;
+    height: 35px;
+    padding-left: 170px;
+    padding-top: 10px;
+}
+
+nav{
+    width: 1000px;
+    height: 60px;
+}
+
+nav ul{
+    display: flex;
+    color:#999;
+    list-style: none;
+    gap: 58px;
+    padding-top: 4px;
+}
+
+nav ul li{
+    font-weight: 400;
+}
+
+.icon{
+    display: flex;
+    width: 400px;
+    height: 60px;
+    
+}
+.glass{
+    width: 15px;
+    height: 15px;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.cart{
+    width: 27px;
+    height: 26px;
+    padding-left: 73px;
+    padding-top: 15px;
+}
+.header-bottom{
+    width: 100%;
+    height: 42px;
+    background-color: rgb(77, 76, 76);
+    display: flex;
+    margin-top: 61px;
+}
+.header-bottom p{
+    padding-top: 12px;
+    padding-left: 490px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+.header-bottom p{
+    margin: 0;
+   
+}
+.header-bottom p a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-bottom p a:hover{
+    text-decoration: underline;
+    text-decoration-color:white ;
+    text-decoration-thickness: 1px;
+}
+.header-bottom img{
+    width: 10px;
+    height: 10px;
+    padding-top: 16px;
+    padding-left: 4px;
+}
+.razer-kuromi{
+    background-image: url(assets/kuromi.jpeg);
+    width: 100%;
+    height:700px;
+    background-size: cover;
+    background-position:  center;
+    border-bottom: 11px solid #222;
+}
+
+.razer-kuromi h2{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+    padding-top: 57px;
+    
+}
+.razer-kuromi h3{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.learn{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    padding-left: 655px;
+    color: #ffffff;
+    gap: 6px;
+
+}
+.learn img{
+    width: 20px;
+    height: 12px;
+    padding-top: 18px;
+   
+}
+.learn h3{
+     width: 100px;
+     height: auto;
+     font-size: 18px;
+     font-weight: 200;
+     padding-top: 16px;
+}
+.buy{
+    width: 32px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 0px;
+    padding-left: 20px;
+    margin-top: 16px;
+}
+.secondbox{
+    background-image: url(assets/razer-blade16.webp);
+    width: 100%;
+    height:700px;
+    background-size: cover;
+    background-position:  center;
+    border-bottom: 11px solid #222;
+}
+.secondbox h2{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+    padding-top: 57px;
+    
+}
+.secondbox h3{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.notifyme{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    padding-left: 655px;
+    margin-top: -5px;
+    color: #ffffff;
+    gap: 6px;
+
+}
+.notifyme img{
+    width: 20px;
+    height: 11px;
+    padding-top: 22px;
+    margin-left: -6px;
+   
+}
+.learnmore{
+     width: 100px;
+     height: auto;
+     font-size: 18px;
+     font-weight: 400;
+     padding-top: 0px;
+}
+.notify{
+    width: 80px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 2px;
+    padding-left: 20px;
+    margin-top: 16px;
+}
+
+.thirdbox{
+    background-image: url(assets/ava.webp);
+    width: 100%;
+    height:700px;
+    background-size: cover;
+    background-position:  center;
+    border-bottom: 11px solid #222;
+}
+ .thirdbox h2{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+    padding-top: 57px;
+    
+}
+.thirdbox h3{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.copilot{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    padding-left: 655px;
+    color: #ffffff;
+   
+
+}
+.copilot img{
+    width: 20px;
+    height: 11px;
+    padding-top: 22px;
+   margin: 0px;
+   
+}
+.copilot p{
+     width: 100px;
+     height: auto;
+     font-size: 18px;
+     font-weight: 400;
+     padding-top: 0px;
+     padding-left: 50px;
+} 
+
+.fourthbox{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    border-bottom: 11px solid #222;
+
+}
+.fourthleft{
+    background-image: url(assets/arielle.webp);
+    width: 50%;
+    height:600px;
+    background-size: cover;
+    background-position:  center;
+    border-right: 11px solid #222;
+}
+ .fourthleft h2{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+    padding-top: 57px;
+    
+}
+.fourthleft h3{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.arielle{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    padding-left: 291px;
+    color: #ffffff;
+    gap: 6px;
+
+}
+.arielle img{
+    width: 10px;
+    height: 10px;
+    padding-top: 20px;
+   
+}
+.arielle p{
+     width: 81px;
+     height: auto;
+     font-size: 16px;
+     font-weight: 400;
+     padding-top: 0px;
+     padding-left: 50px;
+} 
+
+.fourthright{
+    background-image: url(assets/ces.webp);
+    width: 50%;
+    height:600px;
+    background-size: cover;
+    background-position:  center;
+    
+}
+ .fourthright h2{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+    padding-top: 57px;
+    
+}
+.fourthright h3{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+
+.fifthbox{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    border-bottom: 11px solid #222;
+
+}
+.fifthleft{
+    background-image: url(assets/chair.webp);
+    width: 50%;
+    height:600px;
+    background-size: cover;
+    background-position:  center;
+    border-right: 11px solid #222;
+}
+ .fifthleft h2{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+    padding-top: 57px;
+    
+}
+.fifthleft h3{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.iskur{
+    display: flex;
+    width: 252px;
+    height: 300px;
+    padding-left: 280px;
+    color: #ffffff;
+}
+.iskur p{
+    width: 180px;
+    height: auto;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 0px;
+}
+.more{
+    width: 20px;
+    height: 9px;
+    padding-top: 24px;
+    margin-left: -86px;
+   
+}
+.buying{
+    width: 16px;
+    height: 10px;
+    padding-top: 23px;
+   
+   
+}
+
+.cor{
+    width: 32px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-left: 18px;
+    margin-top: 3px;
+}
+
+.fifthright{
+    background-image: url(assets/light.webp);
+    width: 50%;
+    height:600px;
+    background-size: cover;
+    background-position:  center;
+    
+}
+.onlyat{
+    width: 110px;
+    height: 20px;
+    background-color: orange;
+    font-size: 14px;
+    font-weight:800;
+    color: black;
+    margin-left: 311px;
+    margin-top: 37px;
+    padding-left: 11px;
+    padding-top: 4px;
+}
+ .fifthright h2{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+       
+}
+.fifthright h3{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+}
+.iskur1{
+    display: flex;
+    width: 200px;
+    height: 300px;
+    padding-left: 280px;
+    color: #ffffff;
+}
+
+.more1{
+    width: 20px;
+    height: 9px;
+    padding-top: 24px;
+    margin-left: -86px;
+   
+}
+.buying1{
+    width: 16px;
+    height: 10px;
+    padding-top: 23px;
+}
+.iskur1 p{
+     width: 178px;
+     height: auto;
+     font-size: 18px;
+     font-weight: 400;
+     padding-top: 0px;
+}
+.core1{
+    width: 32px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 2px;
+    padding-left: 20px;
+    margin-top: 16px;
+}
+
+.sixthbox{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    border-bottom: 11px solid #222;
+
+}
+.sixthleft{
+    background-image: url(assets/dock.webp);
+    width: 50%;
+    height:600px;
+    background-size: cover;
+    background-position:  center;
+    border-right: 11px solid #222;
+}
+ .sixthleft h2{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+    padding-top: 57px;
+    
+}
+.sixthleft h3{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.iskur2{
+    display: flex;
+    width: 200px;
+    height: 300px;
+    padding-left: 280px;
+    color: #ffffff;
+}
+.more2{
+    width: 18px;
+    height: 9px;
+    padding-top: 24px;
+    margin-left: -86px;
+   
+}
+.buying2{
+    width: 16px;
+    height: 10px;
+    padding-top: 23px;
+   
+   
+}
+.iskur2 p{
+     width: 180px;
+     height: auto;
+     font-size: 18px;
+     font-weight: 400;
+     padding-top: 0px;
+}
+.core2{
+    width: 32px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 2px;
+    padding-left: 20px;
+    margin-top: 16px;
+}
+
+
+.sixthright{
+    background-image: url(assets/monitor.webp);
+    width: 50%;
+    height:600px;
+    background-size: cover;
+    background-position:  center;
+    
+}
+ .sixthright h2{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+    padding-top: 57px;
+    
+}
+.sixthright h3{
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.iskur3{
+    display: flex;
+    width: 200px;
+    height: 300px;
+    padding-left: 280px;
+    color: #ffffff;
+}
+
+.iskur3 p{
+     width: 180px;
+     height: auto;
+     font-size: 18px;
+     font-weight: 400;
+     padding-top: 0px;
+}
+.more3{
+    width: 18px;
+    height: 9px;
+    padding-top: 24px;
+    margin-left: -86px;
+   
+}
+.buying3{
+    width: 16px;
+    height: 10px;
+    padding-top: 23px;
+   
+   
+}
+.core3{
+    width: 32px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 2px;
+    padding-left: 20px;
+    margin-top: 16px;
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 420px;
+    background-color:rgb(0, 0, 0);
+    
+}
+.footertop{
+    position: relative;
+    width: 1150px;
+   
+    background-color: black;
+    left: 163px;
+    top: 30px;
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+.shop{
+    width: 179px;
+    height: 330px;
+    
+  
+}
+.shop ul{
+    list-style: none;
+    margin: 0;
+    line-height: 28px;
+    padding-left: 0px;
+}
+.shop ul li{
+    color:white;
+    font-size: 12px;
+
+}
+.shop ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.shop ul li a:hover{
+    text-decoration: underline;
+    font-weight:500;
+    
+}
+.explore{
+    width: 179px;
+    height: 330px;
+    
+  
+}
+.explore ul{
+    list-style: none;
+    margin: 0;
+    line-height: 28px;
+    padding-left: 0px;
+}
+.explore ul li{
+    color:white;
+    font-size: 12px;
+
+}
+.explore ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.explore ul li a:hover{
+    text-decoration: underline;
+    font-weight:500;
+    
+}
+
+.support{
+    width: 179px;
+    height: 330px;
+    
+  
+}
+.support ul{
+    list-style: none;
+    margin: 0;
+    line-height: 28px;
+    padding-left: 0px;
+}
+.support ul li{
+    color:white;
+    font-size: 12px;
+
+}
+.support ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.support ul li a:hover{
+    text-decoration: underline;
+    font-weight:500;
+   
+}
+
+.company{
+    width: 132px;
+    height: 330px;
+    
+  
+}
+.company ul{
+    list-style: none;
+    margin: 0;
+    line-height: 28px;
+    padding-left: 0px;
+}
+.company ul li{
+    color:white;
+    font-size: 12px;
+
+}
+.company ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.company ul li a:hover{
+    text-decoration: underline;
+    font-weight:500;
+   
+}
+
+
+.follow{
+    width: 179px;
+    height: 330px;
+    margin-top: -23px;
+    padding-left: 10px;
+    
+}
+.follow ul{
+    margin-left:0 px;
+    line-height: 3.6;
+}
+
+.follow ul li{
+    list-style: none;
+    color: white;
+    font-size: 12px;
+
+   
+}
+.follow img{
+    width: 26px;
+    height: 26px;
+    display: block;
+    padding: 2px;
+}
+
+.gamers{
+    position:absolute;
+    height: 300px;
+    width: 300px;
+    right: -101px;
+    
+    margin-top: -16px;
+
+}
+.gamers p{
+    color: #44d62c;;
+    font-size: 14px;
+    font-weight: 500;
+}
+.foot{
+    font-size: 14px;
+    font-weight: 500;
+}
+ .footerbottom{
+    position: relative;
+    width: 1150px;
+   height: 40px;
+    background-color: black;
+    left: 163px;
+    top: 30px;
+    display: flex;
+} 
+
+.copyright{
+    color: #999;
+    font-size: 12px;
+    font-weight: 400;
+    width: 300px;
+    margin-top: 5px;
+
+}
+.site{
+    
+    width: 700px;
+    height: auto;
+}
+
+.site ul{
+     list-style: none;
+     display: flex;
+     gap: 10px;
+}
+.site ul li{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+}
+.site ul li a{
+    text-decoration: none;
+    color: #999;
+}
+.site ul li a:hover{
+    text-decoration: underline;
+    font-weight: 500;
+}
+.location{
+    width: 267px;
+    margin-left: 20px;
+
+}
+.location ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.location ul li{
+   text-decoration: none;
+   font-size: 12px;
+   color: #999;
+   font-weight: 400;
+}
+.location ul li a{
+   text-decoration: none;
+   color: #999;
+}
+.location ul li a:hover{
+   text-decoration: underline;
+   font-weight: 500;
+}
+.location img{
+    width: 10px;
+    height: 10px;
+    margin-left: -7px;
+    margin-top: 2px;
+}
